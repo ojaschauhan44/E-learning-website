@@ -40,7 +40,7 @@ var routes = require('./routes/routes');
 app.use('/',routes);
 
 var PORT = process.env.PORT || 3000;
-
+//var PORT=7000;
 var server=app.listen(PORT,function(){
   console.log('server running on 80');
 });
