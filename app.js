@@ -39,7 +39,8 @@ app.set('views', path.join(__dirname + '/frontview/html/'));
 var routes = require('./routes/routes');
 app.use('/',routes);
 
+var PORT = process.env.PORT || 3000;
 
-var server=app.listen(80,function(){
+var server=app.listen(PORT,function(){
   console.log('server running on 80');
 });
