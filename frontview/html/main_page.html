@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+    <title>Main page</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="bootstrap.css" rel="stylesheet" type="text/css" media="all" >
+	<link href="font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" property="" >
+	<link href="main_page_style.css" rel="stylesheet" type="text/css" media="all">
+    </head>
+    <body>
+        <div class="banner" id="home">
+		<div class="container">
+			<!-- header -->
+			<header>
+
+				<div class="heade-bottom-w3layouts">
+					<!--<div class="main-w3ls-logo">
+						<h1><a href="index.html"><span class="fa fa-check-square-o" aria-hidden="true"></span>Institute</a></h1>
+					</div>-->
+                    <div class="logo-set">
+                        <img src="chitkarablackadj.png" class="img-responsive logo-img" >
+                    </div>
+				</div>
+				<div class="clearfix"></div>
+				<!-- //navigation -->
+			</header>
+			<!-- //header -->
+			<!-- banner-text -->
+			<div class="banner-text">
+				<div class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="slider-info">
+								<h3>One portal for all subjects</h3>
+								<p>Education Needs Complete Solution</p>
+								<a href="home_page.html">Study Now</a>
+							</div>
+						</li>
+						<li>
+
+							<div class="slider-info">
+								<h3>One Community for all students</h3>
+								<p>Successful career starts with good training</p>
+								<a href="home_page.html">Study Now</a>
+							</div>
+						</li>
+
+					</ul>
+
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+        	<div class="about-section" id="about">
+		<div class="container">
+            <h5 class="main-w3l-title">About Us</h5>
+			<div class="about-top">
+				<h3 class="subheading-wthree">Something About Us</h3>
+				<p class="paragraph-agileinfo">very individual wants to receive the best of education to achieve his or her dreams. However, the more the institution is good, the higher the fees they charge. Students usually leave their education incomplete and do blue collar jobs to meet their basic ends. Moreover, these students collect money to complete their masters later in career. Apart from those who can afford expensive higher education, some handful of students gets scholarships.
+				</p>
+			</div>
+			<div class="about-main">
+				<div class="about-w3-left">
+					<div class="about-img">
+					</div>
+					<div class="about-bottom">
+						<p class="paragraph-agileinfo white-clr">Online education can cost less due to a variety of reasons. For example, there is no cost for commuting. Assorted costs that are related to transport, such as fuel, parking, car maintenance, and public transportation costs don't affect the online student.</p>
+					</div>
+				</div>
+
+				<div class="about-w3ls-right">
+					<h3 class="subheading-wthree">Welcome to our Institute</h3>
+					<p class="paragraph-agileinfo">We offer great variety of individual and group programs. Our clients' and our experience proves that the following courses
+						can literally change your life!</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>See our best skills</li>
+						<li><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>Learn courses online</li>
+						<li><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>Best trainers</li>
+						<li><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>Student Guidance</li>
+						<li><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>Learn With Fun</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+    <!---script------------------------------------------------->
+
+        <script type='text/javascript' src='jquery-2.2.3.min.js'></script>
+
+	<script src="jquery.waypoints.min.js"></script>
+	<script src="jquery.countup.js"></script>
+	<script>
+		$('.counter').countUp();
+	</script>
+	<!-- //stats -->
+	<!-- flexSlider -->
+	<script defer src="jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function () {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				start: function (slider) {
+					$('body').removeClass('loading');
+				}
+			});
+		});
+	</script>
+	<!-- //flexSlider -->
+	<!-- Responsiveslides -->
+	<script src="responsiveslides.min.js"></script>
+	<script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+			// Slideshow 4
+			$("#slider3").responsiveSlides({
+				auto: true,
+				pager: true,
+				nav: false,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+					$('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+					$('.events').append("<li>after event fired.</li>");
+				}
+			});
+
+		});
+	</script>
+	<!-- // Responsiveslides -->
+	<!--search-bar-->
+	<script src="main.js"></script>
+	<!--//search-bar-->
+
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="move-top.js"></script>
+	<script type="text/javascript" src="easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+
+
+
+
+
+
+    </body>
+</html>

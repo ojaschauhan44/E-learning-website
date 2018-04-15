@@ -1,0 +1,64 @@
+/*<link href="https://fonts.googleapis.com/css?family=Acme|Gugi|Lobster|Poppins" rel="stylesheet">*/
+
+body {
+	background: url("https://rachelbrenke.com/wp-content/uploads/2016/09/notebook-1280538_1920.jpg")no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*background-repeat: no-repeat;
+	background-size: contain;*/
+}
+.imgs {
+	/*border: 1px solid grey;*/
+	border-radius: 15px;
+	max-height: 200px;
+	max-width: 240px;
+}
+.imgs:hover {
+	box-shadow: 3px 3px 10px white;
+}
+h1 {
+	font-family: 'Acme', sans-serif;
+	text-shadow: 3px 3px 5px white;
+	font-weight: 800px;
+	font-size: 70px;
+}
+h2 {
+	font-family: 'Lobster', cursive;
+	/*font-size: 30px;*/
+}
+p {
+	font-family: arial black;
+}
+/*#p2 {
+	margin-left: 0px;
+	color: ;
+}*/
+.heading {
+	text-align: center;
+}
+.no-bdr {
+	border-left: none;
+	border-right: none;
+}
+.fw-800 {
+	font-weight: 800;
+}
+.fw-700 {
+	font-weight: 700;
+}
+#brand-glow {
+	background-color: rgb(56,56,56) ;
+	font-size: 23px;
+}
+.panel {
+	opacity: .75;
+}
+.panel:hover {
+	opacity: 9;
+}
+.panel-body {
+	font-family: 'Arvo', serif;
+	font-size: 16px;
+}
