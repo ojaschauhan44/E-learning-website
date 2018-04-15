@@ -40,6 +40,6 @@ var routes = require('./routes/routes');
 app.use('/',routes);
 
 
-var server=app.listen(3000,function(){
-  console.log('server running on 3000');
+var server=app.listen(80,function(){
+  console.log('server running on 80');
 });
