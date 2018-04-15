@@ -7,7 +7,7 @@ var app = express();
 var path= require('path');
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds113648.mlab.com:13648/discussion');
+mongoose.connect('mongodb://ojaschauhan:qwerty@ds113648.mlab.com:13648/discussion');
 var db = mongoose.connection;
 
 
